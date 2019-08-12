@@ -1,24 +1,16 @@
 {
-  "posts": [
+  "contacts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Noah Bartfield",
+      "phoneNumber": "518-527-2491",
+      "address": "212 Tillman Ln"
     },
     {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Boris",
+      "phoneNumber": "293-148-4985",
+      "address": "123 Willow St",
+      "id": 2
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

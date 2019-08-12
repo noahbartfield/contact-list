@@ -1,0 +1,67 @@
+#contactForm {
+    border: 1px solid black;
+    background-color: rgb(66, 129, 108);
+    color: white;
+}
+
+#nameField {
+    display: flex;
+    justify-content: center;
+}
+
+#phoneNumberField {
+    display: flex;
+    justify-content: center;
+}
+
+#addressField {
+    display: flex;
+    justify-content: center;
+}
+
+#nameInput {
+    margin: 10px;
+    margin-left: 65px;
+}
+
+#nameLabel {
+    margin: 10px;
+}
+
+#phoneNumberInput {
+    margin: 10px;
+}
+
+#phoneNumberLabel {
+    margin: 10px;
+}
+
+#addressInput {
+    margin: 10px;
+}
+
+#addressLabel {
+    margin: 10px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#saveButton {
+    margin: 10px;
+}
+
+.contactElement {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(80, 80, 80);
+}
+
+.contactElement:hover {
+    box-shadow: 5px 5px rgb(95, 76, 28);
+    background-color: rgb(201, 171, 97);
+    color: white;
+}
